@@ -4,24 +4,28 @@
 //echo $arr [0];// orange
 //
 //
-//$assoc = [
-//
-//    'color' => 'red',
-//    'age' => 25,
-//    'nick' => 'Max'
-//];
+$assoc = [
+
+   'color' => 'red',
+   'age' => 25,
+   'nick' => 'Max'
+];
 //echo $assoc ['color'];//red
 //$obj ->color;//red
 
 
-$var = [];
+//$var = [];
+//
+////unset($var);
+//
+//if (isset($var)){
+//
+//    echo"ok";
+//
+//}else{
+//    echo"not";
+//}
 
-//unset($var);
 
-if (isset($var)){
-
-    echo"ok";
-
-}else{
-    echo"not";
-}
+echo "<pre>";
+print_r($assoc);
